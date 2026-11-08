@@ -1,0 +1,15 @@
+{
+    "dir": {
+        "%songs%": "assets/songs",
+        "%data%": "assets/shared/data/",
+        "%lyrics%": "assets/lyrics",
+        "%images%": "assets/shared/images",
+        "%videos%": "assets/videos",
+        "%fonts%": "assets/fonts",
+        "%weeks%": "assets/shared/weeks",
+        "%stages%": "assets/shared/stages",
+        "%sounds": "assets/shared/sounds",
+        "%characters%": "assets/shared/characters",
+        "%mods%": "assets/shared/mods"
+    }
+}

@@ -10,7 +10,7 @@ Refer to [the Build Instructions](/docs/BUILDING.md)
 
 If you wish to disable things like *Lua Scripts* or *Video Cutscenes*, you can refer to the `Project.xml` file.
 
-Inside `Project.xml`, you will find several variables to customize Psych Engine to your liking.
+Inside `Project.xml`, you will find several variables to customize Nova Engine to your liking.
 
 To start you off, disabling *Video Cutscenes* should be simple, simply delete the line `"VIDEOS_ALLOWED"` or comment it out by wrapping the line in XML-like comments, like this: `<!-- YOUR_LINE_HERE -->`
 

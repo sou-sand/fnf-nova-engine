@@ -5,6 +5,7 @@ import backend.StageData;
 import backend.WeekData;
 import backend.Song;
 import backend.Rating;
+import backend.VsSongCatalog;
 
 import flixel.FlxBasic;
 import flixel.FlxObject;
@@ -1261,7 +1262,7 @@ class PlayState extends MusicBeatState
 
 		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence (with Time Left)
-		if(autoUpdateRPC) DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength);
+		if(autoUpdateRPC) DiscordClient.changePresence(detailsText, getRPCSongState(), iconP2.getCharacter(), true, songLength);
 		#end
 		setOnScripts('songLength', songLength);
 		callOnScripts('onSongStart');
@@ -1621,7 +1622,7 @@ class PlayState extends MusicBeatState
 		super.onFocusLost();
 		if (!paused && health > 0 && autoUpdateRPC)
 		{
-			DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+			DiscordClient.changePresence(detailsPausedText, getRPCSongState(), iconP2.getCharacter());
 		}
 	}
 	#end
@@ -1634,11 +1635,26 @@ class PlayState extends MusicBeatState
 		if(!autoUpdateRPC) return;
 
 		if (showTime)
-			DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.data.noteOffset);
+			DiscordClient.changePresence(detailsText, getRPCSongState(), iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.data.noteOffset);
 		else
-			DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+			DiscordClient.changePresence(detailsText, getRPCSongState(), iconP2.getCharacter());
 		#end
 	}
+
+	#if DISCORD_ALLOWED
+	function getRPCSongState():String
+	{
+		var songInfo = VsSongCatalog.findSong(SONG.song);
+		if (songInfo == null) songInfo = VsSongCatalog.findSong(Song.loadedSongName);
+		if (songInfo == null)
+			return SONG.song + " (" + storyDifficultyText + ")";
+
+		var albumInfo:String = songInfo.album;
+		if (songInfo.albumKind.length > 0) albumInfo += " " + songInfo.albumKind;
+		if (songInfo.year > 0) albumInfo += " " + songInfo.year;
+		return songInfo.name + " - " + songInfo.artist + " (" + albumInfo + ", " + storyDifficultyText + ")";
+	}
+	#end
 
 	function resyncVocals():Void
 	{

@@ -1,0 +1,24 @@
+{
+    "regions": {
+        "au": {
+            "name": "Australia",
+            "flag": "%images%/flags/au.png"
+        },
+        "pt-br": {
+            "name": "Brazil",
+            "flag": "%images%/flags/pt_br.png"
+        },
+        "uk": {
+            "name": "United Kingdom",
+            "flag": "%images%/flags/uk.png"
+        },
+        "eng": {
+            "name": "England",
+            "flag": "%images%/flags/eng.png"
+        },
+        "en-us": {
+            "name": "United States Of America",
+            "flag": "%images%/flags/en_us.png"
+        }
+    }
+}

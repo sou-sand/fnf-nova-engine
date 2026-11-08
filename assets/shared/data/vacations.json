@@ -1,0 +1,161 @@
+{
+    "vacations": {
+        "name": "Vacations",
+        "origin":"au",
+        "desc": "Vacations is an Australian indie rock band formed in 2015 in Newcastle. &end_p/The group consists of lead songwriter and vocalist Campbell Burns, bassist Jake Johnson, lead guitarist Nate Delizzotti and drummer Joseph Van Lier. &end_p/In March 2024, Esquire called Vacations &open_quote/Australia's greatest boy band&close_quote/",
+		"artists": ["Campbell Burns", "Jake Johnson", "Nate Delizzotti", "Joseph Van Lier"],
+        "quote": "Australia's greatest boy band",
+        "albums": {
+            "vibes": {
+                "title": "Vibes",
+                "kind": "EP",
+                "album_cover": "%images%/covers/vacations/albums/vibes.png",
+                "year": 2016,
+                "links": {
+                    "spotify": "https://open.spotify.com/album/54lNPJ6xq2QXwG6jLEIf6C",
+                    "yt_music": "https://music.youtube.com/playlist?list=OLAK5uy_n5893GwrOltwobU8fx2zhFvkMCwtvfqiM",
+                    "deezer": "https://www.deezer.com/en/album/277726262",
+                    "amazon": "https://music.amazon.com/albums/B09MZWXKGP"
+                },
+				"songs": {
+         	       "home": {
+         	           "ID": "vacations_home",
+						"SortAs": "vibes_home",
+						"name": "Home",
+						"order": 1,
+                	    "type": "lyrical",
+						"file": "%songs%/vacations/vibes/home.ogg",
+						"chart": "%data%/charts/vacations/vibes/home.ned",
+				    	"lyrics": "%lyrics%/vacations/vibes/home.srt"
+                    },
+                    "away": {
+                        "ID": "vacations_away",
+				    	"SortAs": "vibes_away",
+				    	"name": "Away",
+				    	"order": 2,
+                        "type": "lyrical",
+				    	"file": "%songs%/vacations/vibes/away.ogg",
+				    	"chart": "%data%/charts/vacations/vibes/away.ned",
+				    	"lyrics": "%lyrics%/vacations/vibes/away.srt"
+                    },
+                    "relax": {
+                        "ID": "vacations_relax",
+				    	"SortAs": "vibes_relax",
+				    	"name": "Relax",
+				    	"order": 3,
+                        "type": "lyrical",
+				    	"file": "%songs%/vacations/vibes/relax.ogg",
+				    	"chart": "%data%/charts/vacations/vibes/relax.ned",
+				    	"lyrics": "%lyrics%/vacations/vibes/relax.srt"
+                    },
+                    "young": {
+                        "ID": "vacations_young",
+				    	"SortAs": "vibes_young",
+				    	"name": "Young",
+				    	"order": 4,
+                        "type": "lyrical",
+				    	"file": "%songs%/vacations/vibes/young.ogg",
+				    	"chart": "%data%/charts/vacations/vibes/young.ned",
+				    	"lyrics": "%lyrics%/vacations/vibes/young.srt"
+                    },
+                    "dave": {
+                        "ID": "vacations_dave",
+				    	"SortAs": "vibes_dave_brubeck",
+				    	"name": "Dave Brubeck",
+				    	"order": 5,
+                       "type": "inst_tap",
+				    	"file": "%songs%/vacations/vibes/dave_b.ogg",
+				    	"chart": "%data%/charts/vacations/vibes/dave_b.ned",
+				    	"lyrics": ""
+                    },
+                    "friends": {
+                        "ID": "vacations_friends",
+				    	"SortAs": "vibes_friends",
+					    "name": "Friends",
+					    "order": 6,
+                        "type": "lyrical",
+					    "file": "%songs%/vacations/vibes/friends.ogg",
+					    "chart": "%data%/charts/vacations/vibes/friends.ned",
+					    "lyrics": "%lyrics%/vacations/vibes/friends.srt"
+                    }
+                },
+                "data": {
+                    "desc": "Originally launched at 2016, Vibes was more known because of the song &open_quote/Young&close_quote/, mostly used in &open_quote/depression&close_quote/ playlists.",
+                    "diffs": ["easy"],
+                    "week_type": "tutorial"
+                },
+			    "week": 1
+            },
+            "days": {
+                "title": "Days",
+                "kind": "EP",
+                "album_cover": "%images%/covers/vacations/albums/days.png",
+                "year": 2015,
+                "links": {
+                    "spotify": "https://open.spotify.com/intl-pt/album/2mkWv5wJvSnlv7pJtkUmzl",
+                    "yt_music": "https://music.youtube.com/playlist?list=OLAK5uy_lvPAj2HzLwvPVtywL7MQ6AB8e2gRy2bxg",
+                    "deezer": "https://www.deezer.com/en/album/277726322",
+                    "amazon": "https://music.amazon.com/albums/B09MZWVJP1"
+                },
+				"songs": {
+         	       "day_dreamin": {
+         	           "ID": "vacations_day_dreamin",
+						"SortAs": "days_day_dreamin",
+						"name": "Day Dreamin",
+						"order": 1,
+                	    "type": "lyrical",
+						"file": "%songs%/vacations/days/day_dreamin.ogg",
+						"chart": "%data%/charts/vacations/days/day_dreamin.ned",
+				    	"lyrics": "%lyrics%/vacations/days/day_dreamin.srt"
+                    },
+                    "ham_south": {
+                        "ID": "vacations_ham_south",
+				    	"SortAs": "days_ham_south",
+				    	"name": "Hamilton South",
+				    	"order": 2,
+                        "type": "lyrical",
+				    	"file": "%songs%/vacations/days/ham_south.ogg",
+				    	"chart": "%data%/charts/vacations/days/ham_south.ned",
+				    	"lyrics": "%lyrics%/vacations/days/ham_south.srt"
+                    },
+                    "moments": {
+                        "ID": "vacations_moments",
+				    	"SortAs": "days_moments",
+				    	"name": "Moments",
+				    	"order": 3,
+                        "type": "lyrical",
+				    	"file": "%songs%/vacations/days/moments.ogg",
+				    	"chart": "%data%/charts/vacations/days/moments.ned",
+				    	"lyrics": "%lyrics%/vacations/days/moments.srt"
+                    },
+                    "no_fun": {
+                        "ID": "vacations_no_fun",
+				    	"SortAs": "days_no_fun",
+				    	"name": "No Fun",
+				    	"order": 4,
+                        "type": "lyrical",
+				    	"file": "%songs%/vacations/days/no_fun.ogg",
+				    	"chart": "%data%/charts/vacations/days/no_fun.ned",
+				    	"lyrics": "%lyrics%/vacations/days/no_fun.srt"
+                    },
+                    "days": {
+                        "ID": "vacations_days",
+				    	"SortAs": "days_days",
+				    	"name": "Days",
+				    	"order": 5,
+                        "type": "lyrical",
+				    	"file": "%songs%/vacations/days/days.ogg",
+				    	"chart": "%data%/charts/vacations/days/days.ned",
+				    	"lyrics": "%lyrics%/vacations/days/days.srt"
+                    }
+                },
+                "data": {
+                    "desc": "Originally launched at 2015, Days was one of the first EPs of Vacations, and it was more known because of the song &open_quote/Day Dreamin&close_quote/, &open_quote/Moments&close_quote/ and &open_quote/Days&close_quote/.",
+                    "diffs": ["easy"],
+                    "week_type": "week"
+                },
+			    "week": 2
+            }
+        }  
+    }
+}
