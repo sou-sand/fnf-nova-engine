@@ -5,7 +5,17 @@ Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), 
 
 ## Installation:
 
+### Building
 Refer to [the Build Instructions](/docs/BUILDING.md)
+
+### Download 
+GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/latest)
+
+GameJolt: (to-do) 
+
+Itch.io: (to-do) 
+
+F-Droid (Android): (to-do)
 
 ## Customization:
 
@@ -22,7 +32,7 @@ For this you can head over to [the wiki](https://shadowmario.github.io/psychengi
 
 There you can learn how to use the 212 PlayState funcions in your mod!
 
-## Credits:
+## Psych Engine Credits:
 * Shadow Mario - Main Programmer and Head of Psych Engine.
 * Riveren - Main Artist/Animator of Psych Engine.
 
