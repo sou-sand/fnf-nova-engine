@@ -1,7 +1,7 @@
-![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
+![splitlogo](to-do)
 -# to-do change logo and readme
 
-Engine originally used on [VS Songs!](to-do), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+Engine originally used on [VS Songs!](to-do), intended to be a revival for the original engine (Psych Engine), while adding specific features for the game. It is not intended to be equal to current Friday Night Funkin', osu!lazer or any other game. 
 
 ## Installation:
 
