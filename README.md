@@ -13,6 +13,7 @@ GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/
 
 ### Download VS Songs! 
 GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/latest)
+To setup, use [this tutorial](to-do) 
 
 Gamebanana: (to-do) 
 
