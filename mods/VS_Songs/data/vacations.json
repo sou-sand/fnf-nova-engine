@@ -2,6 +2,7 @@
     "vacations": {
         "name": "Vacations",
         "origin":"au",
+        "portrait": "%images%/covers/artists/vacations.png",
         "desc": "Vacations is an Australian indie rock band formed in 2015 in Newcastle. &end_p/The group consists of lead songwriter and vocalist Campbell Burns, bassist Jake Johnson, lead guitarist Nate Delizzotti and drummer Joseph Van Lier. &end_p/In March 2024, Esquire called Vacations &open_quote/Australia's greatest boy band&close_quote/",
 		"artists": ["Campbell Burns", "Jake Johnson", "Nate Delizzotti", "Joseph Van Lier"],
         "quote": "Australia's greatest boy band",
@@ -9,7 +10,7 @@
             "vibes": {
                 "title": "Vibes",
                 "kind": "EP",
-                "album_cover": "%images%/covers/vacations/albums/vibes.png",
+                "album_cover": "%images%/covers/albums/vacations/vibes.png",
                 "year": 2016,
                 "links": {
                     "spotify": "https://open.spotify.com/album/54lNPJ6xq2QXwG6jLEIf6C",
@@ -89,7 +90,7 @@
             "days": {
                 "title": "Days",
                 "kind": "EP",
-                "album_cover": "%images%/covers/vacations/albums/days.png",
+                "album_cover": "%images%/covers/albums/vacations/days.png",
                 "year": 2015,
                 "links": {
                     "spotify": "https://open.spotify.com/intl-pt/album/2mkWv5wJvSnlv7pJtkUmzl",

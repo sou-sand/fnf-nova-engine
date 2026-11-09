@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Nova Engine
+Comment=A Psych Engine revival with features for VS Songs
+Icon=io.github.sou-sand.fnf-nova-engine
+Exec=NovaEngine
+Categories=Game
