@@ -11,6 +11,9 @@ Refer to [the Build Instructions](/docs/BUILDING.md)
 ### Download 
 GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/latest)
 
+### Download VS Songs! 
+GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/latest)
+
 Gamebanana: (to-do) 
 
 GameJolt: (to-do) 
