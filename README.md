@@ -1,7 +1,7 @@
 ![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
 -# to-do change logo and readme
 
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+Engine originally used on [VS Songs!](to-do), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
 ## Installation:
 
@@ -10,6 +10,8 @@ Refer to [the Build Instructions](/docs/BUILDING.md)
 
 ### Download 
 GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/latest)
+
+Gamebanana: (to-do) 
 
 GameJolt: (to-do) 
 
