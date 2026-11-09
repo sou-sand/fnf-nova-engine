@@ -1,0 +1,12 @@
+{
+	"name": "VS Songs!",
+	"description": "Main engine, packages and necessary resources for VS Songs! mod pack. Disabling it will just turn the game to the vanilla Nova Engine.",
+	"developers": ["SouSand", "Nova Engine Team", "VS Songs! Team"],
+	"version": 1.0,
+	"mandatory": true,
+	"restart": true,
+	"runsGlobally": false,
+	"color": [170, 0, 255],
+	"discordRPC": "1569094342830723143",
+	"iconFramerate": 10
+}
