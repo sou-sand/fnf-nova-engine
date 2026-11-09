@@ -1,11 +1,26 @@
-![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
+![splitlogo](to-do)
 -# to-do change logo and readme
 
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+Engine originally used on [VS Songs!](to-do), intended to be a revival for the original engine (Psych Engine), while adding specific features for the game. It is not intended to be equal to current Friday Night Funkin', osu!lazer or any other game. 
 
 ## Installation:
 
+### Building
 Refer to [the Build Instructions](/docs/BUILDING.md)
+
+### Download 
+GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/latest)
+
+### Download VS Songs! 
+GitHub: Head to [releases](https://github.com/sou-sand/fnf-nova-engine/releases/latest)
+
+Gamebanana: (to-do) 
+
+GameJolt: (to-do) 
+
+Itch.io: (to-do) 
+
+F-Droid (Android): (to-do)
 
 ## Customization:
 
@@ -22,7 +37,7 @@ For this you can head over to [the wiki](https://shadowmario.github.io/psychengi
 
 There you can learn how to use the 212 PlayState funcions in your mod!
 
-## Credits:
+## Psych Engine Credits:
 * Shadow Mario - Main Programmer and Head of Psych Engine.
 * Riveren - Main Artist/Animator of Psych Engine.
 
@@ -125,4 +140,4 @@ There you can learn how to use the 212 PlayState funcions in your mod!
 * You can enable "Combo Stacking" in Gameplay Options. This causes the combo sprites to just be one sprite with an animation rather than sprites spawning each note hit.
 
 
-#### Psych Engine by ShadowMario, Friday Night Funkin' by ninjamuffin99
+#### Nova Engine by SouSand, Psych Engine by ShadowMario, Friday Night Funkin' by ninjamuffin99
