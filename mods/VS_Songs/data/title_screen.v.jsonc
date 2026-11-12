@@ -1,0 +1,25 @@
+{
+    // "$schema": "../schemas/title_screen.schema.json",
+    "title": "VS Songs",
+    "order_center": {
+        "albums": 1,
+        "song_select": 2,
+        "playlists": 3,
+        "extras": 4,
+        "settings": 5,
+        // "ssas": 6,
+        "community": 6,
+        "credits": 7,
+        // "quit": 8
+        "socials": 8
+    }//,
+    //"left_sidebar": {
+    //    "achievements": 1,
+    //    "ver_info": 2 /*, includes both vs songs and nova engine ver info
+    //    "mods": 3 no bro */
+    //},
+    //"right_sidebar": {
+    //    "news_big": 1  /*, big news and tips box
+    //    "socials": 2 */
+    //}
+}

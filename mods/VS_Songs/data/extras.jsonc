@@ -1,0 +1,132 @@
+{
+    "extras": {
+        "name": "Extras",
+        "origin":"",
+        "portrait": "%images%/covers/others/extras.png",
+        "desc": "Official extras of the VS Songs mod, including songs that are not part of any album.",
+		"artists": ["SouSand", "v"],
+        "quote": "",
+        "albums": {
+            "uncategorized": {
+                "title": "Uncategorized",
+                "kind": "extra",
+                "album_cover": "",
+                "year": "",
+                "links": {}, // to-do
+				"songs": {
+         	       "vs_vesg": {
+         	           "ID": "vesguinho_tuto",
+						"SortAs": "vs_vesguinho",
+						"name": "VS Vesguinho",
+						"order": 1,
+                	    "type": "fnf",
+                        "icon": "%images%/icons/others/vs_vesg.png",
+                        "composer": "SouSand",
+						"file": {
+                            "voices": "%songs%/others/vs_vesg/voices.ogg",
+                            "inst": "%songs%/others/vs_vesg/inst.ogg"
+                        },
+						"chart": "%data%/charts/others/vs_vesg.ned",
+				    	"lyrics": ""
+                    },
+                    "pigsfly": {
+         	           "ID": "pigsfly",
+						"SortAs": "pigs_fly",
+						"name": "Pigsfly",
+						"order": 2,
+                	    "type": "fnf",
+                        "icon": "%images%/icons/others/pigsfly.png",
+                        "composer": "v",
+						"file": {
+                            "voices": "%songs%/others/pigsfly/voices.ogg",
+                            "inst": "%songs%/others/pigsfly/inst.ogg"
+                        },
+						"chart": "%data%/charts/others/pigsfly.ned",
+				    	"lyrics": ""
+                    },
+                    "leave": {
+         	           "ID": "vesg_leave",
+						"SortAs": "leave",
+						"name": "LEAVE",
+						"order": 3,
+                	    "type": "fnf",
+                        "icon": "%images%/icons/others/leave.png",
+                        "composer": "SouSand",
+						"file": {
+                            "voices": "%songs%/others/leave/voices.ogg",
+                            "inst": "%songs%/others/leave/inst.ogg"
+                        },
+						"chart": "%data%/charts/others/leave.ned",
+				    	"lyrics": ""
+                    }
+                },
+                "data": {
+                    "desc": "",
+                    "diffs": [""], // defined at .ned files
+                    "week_type": "extras"
+                },
+			    "week": 1
+            },
+            "covers": {
+                "title": "Covers",
+                "kind": "extra",
+                "album_cover": "",
+                "year": "",
+                "links": {}, // to-do
+				"songs": {
+         	       "left_unchecked": {
+         	           "ID": "left_unchecked",
+						"SortAs": "left_unchecked",
+						"name": "Left Unchecked",
+						"order": 1,
+                	    "type": "fnf",
+                        "icon": "%images%/icons/covers/left_unchecked.png",
+                        "composer": "SouSand",
+						"file": {
+                            "voices": "%songs%/covers/left_unchecked/voices.ogg",
+                            "inst": "%songs%/covers/left_unchecked/inst.ogg"
+                        },
+						"chart": "%data%/charts/covers/left_unchecked.ned",
+				    	"lyrics": ""
+                    },
+                    "deformation": {
+         	           "ID": "deformation",
+						"SortAs": "deformation",
+						"name": "Deformation",
+						"order": 2,
+                	    "type": "fnf",
+                        "icon": "%images%/icons/covers/deformation.png",
+                        "composer": "SouSand",
+						"file": {
+                            "voices": "%songs%/covers/deformation/voices.ogg",
+                            "inst": "%songs%/covers/deformation/inst.ogg"
+                        },
+						"chart": "%data%/charts/covers/deformation.ned",
+				    	"lyrics": ""
+                    },
+                    "shagged": {
+         	           "ID": "shagged",
+						"SortAs": "shagged",
+						"name": "Shagged",
+						"order": 3,
+                	    "type": "fnf",
+                        "icon": "%images%/icons/covers/shagged.png",
+                        "composer": "SouSand",
+						"file": {
+                            "voices": "%songs%/covers/shagged/voices.ogg",
+                            "inst": "%songs%/covers/shagged/inst.ogg"
+                        },
+						"chart": "%data%/charts/covers/shagged.ned",
+				    	"lyrics": ""
+                    }
+                },
+                "data": {
+                    "desc": "",
+                    "diffs": [""], // defined at .ned files
+                    "week_type": "extras"
+                },
+			    "week": 2
+            }
+        }  
+    }
+}
