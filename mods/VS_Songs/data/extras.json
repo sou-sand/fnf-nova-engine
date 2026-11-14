@@ -12,7 +12,7 @@
                 "kind": "extra",
                 "album_cover": "",
                 "year": "",
-                "links": {}, // to-do
+                "links": {},
 				"songs": {
          	       "vs_vesg": {
          	           "ID": "vesguinho_tuto",
@@ -58,11 +58,26 @@
                         },
 						"chart": "%data%/charts/others/leave.ned",
 				    	"lyrics": ""
+                    },
+                    "beatbox": {
+         	           "ID": "beatbox",
+						"SortAs": "beatbox",
+						"name": "Cherry Beatbox",
+						"order": 4,
+                	    "type": "fnf",
+                        "icon": "%images%/icons/others/beatbox.png",
+                        "composer": "SouSand",
+						"file": {
+                            "voices": "%songs%/others/beatbox/voices.ogg",
+                            "inst": "%songs%/others/beatbox/inst.ogg"
+                        },
+						"chart": "%data%/charts/others/beatbox.ned",
+				    	"lyrics": ""
                     }
                 },
                 "data": {
                     "desc": "",
-                    "diffs": [""], // defined at .ned files
+                    "diffs": [""],
                     "week_type": "extras"
                 },
 			    "week": 1
@@ -72,7 +87,7 @@
                 "kind": "extra",
                 "album_cover": "",
                 "year": "",
-                "links": {}, // to-do
+                "links": {},
 				"songs": {
          	       "left_unchecked": {
          	           "ID": "left_unchecked",
@@ -122,7 +137,7 @@
                 },
                 "data": {
                     "desc": "",
-                    "diffs": [""], // defined at .ned files
+                    "diffs": [""],
                     "week_type": "extras"
                 },
 			    "week": 2
